@@ -1,0 +1,35 @@
+.diagonal {
+    background-image: linear-gradient(
+        to top right,
+        transparent 49.9%,
+        rgb(107 114 128),
+        transparent 51.1%
+    );
+}
+
+.top {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.background {
+    width: 100px;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+.background > div {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
